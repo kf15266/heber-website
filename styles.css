@@ -34,6 +34,14 @@
     font-size: 250px;
     font-family: Georgia, 'Times New Roman', Times, serif;
  }
+ /* #region nav phone */
+@media screen and (max-width: 450px) {
+  .herotitle {
+    font-size: 100px;
+  }
+}
+  
+/* #endregion */
  
 
 /*#endregion */
@@ -85,19 +93,104 @@
   }
   
   .image {
-    flex-basis: 100%
+    flex-basis: 250%
     
   }
   
   .text {
     font-size: 25px;
-    padding-right: 10%;
+    padding-right: 5%;
     
     
   }
   .text h2 {
     color: rgb(69, 99, 81);
   }
+  /* #region food phone */
+@media screen and (max-width: 450px) {
+  .alpine {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url(Image/alpine.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  .waterfall {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url(Image/waterfall.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  .mirror {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url(Image/mirror.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  .Lola {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url(Image/food2.avif);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  .India{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url(Image/little\ india.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  .Hub {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url(Image/burger.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  .Crater {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url(Image/utah\ crater.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  .horse{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url(Image/horse\ back.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  .snow {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url(Image/snow\ 1.avif);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  h3 {
+    font-size: small;
+    font-weight: 50;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .text {
+    color: #ffffff;
+    font-size: 15px;
+    padding-right: 5%;
+    padding-left: 3%;
+  }
+  .text h2 {
+    color: rgb(255, 255, 255);
+  }
+  .container {
+    justify-content: right;
+    
+  }
+  .image {
+    flex-basis: 0%;
+    padding-left: 3%;
+  }
+  img {
+    width: 100%;
+  }
+}
+  
+/* #endregion */
 /* #endregion */
 /* #region Things */
 #scehead{
@@ -127,7 +220,7 @@ li {
 }
 li a {
 
-     display:block;
+     display:flex;
      color: aliceblue;
      padding: 14px;
      margin-left: 50px;
@@ -144,6 +237,17 @@ li a:hover{
     margin-right: 50px;
     padding: 0;
 }
+/* #region nav phone */
+@media screen and (max-width: 450px) {
+  ul {
+    flex-direction: column;
+  }
+  .homelogo {
+    text-align: center;
+  }
+}
+  
+/* #endregion */
 /* #endregion */
 
 /* #region mainpage */
@@ -171,6 +275,18 @@ h3 {
     margin-left: 25%;
     margin-right: 25%;
 }
+/* #region main phone */
+@media screen and (max-width: 550px) {
+  h3 {
+    font-size: small;
+    font-weight: 50;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+}
+  
+/* #endregion */
 
 /* #endregion */
 
